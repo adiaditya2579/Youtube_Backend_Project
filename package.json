@@ -2,10 +2,15 @@
   "name": "youtube_project",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodeman src/index.js"
   },
   "author": "Aditya Gupta",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "D": "^1.0.0",
+    "nodeman": "^1.1.2"
+  }
 }
