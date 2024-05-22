@@ -1,0 +1,16 @@
+{
+  "name": "youtube-project",
+  "version": "1.0.0",
+  "description": "backend project learn on chai aur code",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon scr/index.js"
+  },
+  "author": "Aditya gupta",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
